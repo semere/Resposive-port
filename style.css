@@ -35,7 +35,7 @@
 .text{
     position: relative;
     top: 20px;
-    right: 110px;
+    right: 50px;
     
 }
 a.btn{
@@ -164,3 +164,21 @@ color: white;
 -ms-transition: all 0.8s;
 transition: all 0.8s;
 }
+@media screen and (max-width: 750px) {
+    .social-circle li a {
+        position: relative;
+        display: inline-block;
+        top: -30px;
+        left: 20px;
+        right: -20px;
+        
+        }
+  }
+  @media screen and (max-width: 750px) {
+    .text {
+        margin-right: 30px;
+        margin-left: 60px;
+        position: relative;
+        word-break: break;
+        }
+  }
